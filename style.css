@@ -1,0 +1,418 @@
+/* BAGIAN 1	*/
+.container-fluid {
+	width: 100%;
+}
+.navbar{
+  	background-color: #FFFFFF;
+
+}
+.nav2 {
+	width: 80%;
+}
+.logo {
+	width: 105px;
+	height: 63px;
+	margin-top: -2px;
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Lato;
+	color: #5E5B4E;
+	opacity: 90%;
+	margin-left: -5px;
+}
+.search {
+	background-color: #9B734B;
+    color: #ffffff; 
+}
+/* mengubah warna placeholder */
+.search::-webkit-input-placeholder{
+	color: white;
+}
+.search, .sign {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Lato;
+	margin-right: 20px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.sign:hover {
+	background: #008080;     
+	color:#fafafa;
+}
+
+.sign:active { 
+	background:#9ACD32;
+}
+.form-control mr-sm-2 {
+	color: white;
+}
+.nav-fill{
+	margin-top: 70px;
+}
+.carousel-inner{
+	margin-top: 85px;
+	width: 100%;
+	height: 800px;
+}
+@media screen and (max-width: 900px) {
+   .carousel-inner{
+       margin-bottom: -450px;
+   }
+}
+.nav .hitam {
+	/*margin-top: 2px;*/
+	font-weight: bold;
+	font-size: 19px;
+	font-family: Lato;
+	color: #D6B58B;
+	opacity: 90%;
+	margin-right: -20px;
+}
+.nav .hitam:hover {
+	background-color: #EEDFCC;
+	color: white;
+
+}
+.icon {
+	margin-left: -12px;
+}
+.input-group .search{
+	margin-left: -310px;
+}
+
+
+/* BAGIAN 2	*/
+.na h2{
+	text-transform: uppercase;
+	font-family: lato;
+	line-height: 38px;
+	padding: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+.img-news{
+	border: 2px solid #000000;
+}
+.news {
+	margin: 0px 25px 0px 100px;
+}
+.row .kotak{
+	margin-left: 10px;
+	margin-right: 100px;
+	padding-left: -100px;
+	box-sizing: border-box;
+}
+
+.textfoto1 {
+	font : normal normal super-bold 22px/26px lato;
+	letter-spacing: 25%;
+}
+
+.textfoto2 {
+	font-weight: medium;
+	font-size: 20px;
+	font-family: poppins;
+	line-height: 26px;
+}
+.textfoto3 {
+	font-weight: medium;
+	font-size: 18px;
+	font-family: poppins;
+}
+
+.btnnews {
+	font : normal normal super-bold 22px/26px lato;
+	letter-spacing: 25%;
+	margin-bottom: 60px;
+}
+
+.ann {
+	background-color: #EEDFCC;
+	padding-bottom: 50px;
+}
+.eve {
+	background-color: #DFBEBE;
+	padding-bottom: 50px;
+}
+.ae {
+	margin-bottom: 20px;
+	
+}
+.img-thumbnail {
+	width: 192px;
+	height: 188px;
+	border: 1px solid grey;
+	border-radius: 100px;
+	text-align: left;
+}
+.media-body p{
+	float: right;
+	text-align: justify;
+	
+}
+.media-body .bagian1{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: poppins;
+	line-height: 23.5px;
+}
+.imgabout {
+	width: 1167px;
+	height: 530px;
+}
+
+.textabout {
+	text-align: justify;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 21.5px;
+	letter-spacing: 2;
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 950px) {
+   .img-thumbnail{
+   		margin-left: 70px;
+   }
+}
+
+@media screen and (min-width: 950px) {
+   .media-body p{
+	   	margin-left: 30px;
+		margin-right: 100px;
+   }
+}	
+
+/*untuk layar device berukuran kecil*/
+@media screen and (max-width: 900px) {
+   .img-thumbnail{
+       width: 96px;
+       height: 94px;
+   }
+}
+@media screen and (max-width: 900px) {
+   .media-body .bagian1{
+   		margin-left: 10px;
+   		margin-top: -25px;
+		font-size: 14px;
+		line-height: 16px;
+   }
+}
+
+/* BAGIAN 3	*/
+.baris{
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+.full h5{
+	font-family: lato;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 28px;
+	padding: 30px;
+	padding-top: 60px;
+	font-weight: bold;
+	margin-top:50px;
+	width: auto;	
+}
+
+.full p{
+	font-family:poppins;
+	line-height: 23.5px;
+	font-size: 18px;
+	padding: 30px;
+	margin-top: -50px;
+	color: white;
+	width: auto;
+}
+
+.left{
+	margin-left: 10px;
+	text-align: justify;
+	margin-right: 30px;
+}
+.bestvisited{
+	text-align: right;
+	margin-right: -30px;
+}
+
+#a{
+	margin-top: 40px;
+	float: right;
+	width: 400px;
+	height: 300px;
+}
+
+#b{
+	margin-top: 30px;
+	margin-left: 45px;
+	width: 400px;
+	height: 300px;
+}
+
+#c{
+	margin-top: 30px;
+	float: right;
+	margin-bottom: 30px;
+	width: 400px;
+	height: 300px;
+
+}
+
+.owner{
+	text-transform: uppercase;
+	font-family: lato;
+	line-height: 38px;
+	padding: 25px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.fototesti{
+	padding: 15px;
+	margin-left: 30px;
+}
+
+.testi{
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.textown p{
+	font-family:poppins;
+	font-size: 18px
+	line-height: 23.5px;
+}
+
+.beforef h6{
+	font-family: lato;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.beforef a{
+	display: block;
+	font-family: poppins;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21.6px;
+	color: #9B734B;
+}
+
+.beforef a:hover{
+	color: white;
+}
+
+#fb{
+	width: : 75px;
+	height: 75px;
+}
+
+#ig{
+	width: : 60px;
+	height: 60px;
+}
+
+#tw{
+	width: : 55px;
+	height: 55px;
+}
+
+
+#footer{
+	color: #AB8989;
+	font-family: lato;
+	font-weight:bold;
+	margin-top: 3px;
+}
+
+.footer{
+	background-color: #242424;
+	margin-top: -30px;
+	height: 60px;
+	margin-bottom: -30px;
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .full h5 {
+    font-size: 20px;
+  }
+  .full p{
+  	font-size: 12px;
+  }
+  .bestvisited{
+  	text-align: justify;
+  	margin-left: 10px;
+  	margin-right: 30px;
+  }
+  #bestvisited{
+  	display: flex;
+  	flex-direction: column-reverse;
+  }
+  #a{
+  	width:370px;
+  	height: 300px;
+  	margin-left: 40px;
+  	float: none;
+  }
+  #b{
+  	width:370px;
+  	height: 300px;
+  	margin-left: 40px;
+  }
+  #c{
+  	width:370px;
+  	height: 300px;
+  	margin-left: 40px;
+  	float: none;
+  }
+   .owner{
+  	font-size: 26px;
+  }
+  .textown p{
+	font-size: 12px
+  }
+  .beforef h6{
+	font-size: 15px;
+	line-height: 18px;
+  }
+  .beforef a{
+  	font-size: 10px;
+  	line-height: 10px;
+  }
+  .fototesti{
+  margin-left: 120px;
+  margin-bottom: -25px;
+  }
+  .testi{
+  	padding: 10px;
+  }
+  #fb{
+	width: : 35px;
+	height: 35px;
+}
+#ig{
+	width: : 30px;
+	height: 30px;
+	display: inherit;
+}
+#tw{
+	width: : 28px;
+	height: 28px;
+}
+#bubur{
+	margin-top: 15px;
+}
+}
